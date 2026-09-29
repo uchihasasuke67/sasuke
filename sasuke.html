@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+          background-color: rgb(85, 128, 207);
+      }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>Начало сайта Sasuke</h2>
+</header>
+    
+figure>
+<img src="images.jfif"
+alt="sasuke"
+width="380" height="200">
+<figcaption>Саске из наруто</figcaption>
+</figure>
+
+<a href="https://github.com">
+    github
+</a>
+
+<p>
+
+</p>
+
+<a href="https://naruto.fandom.com/wiki/Sasuke_Uchiha">
+  <button>uchiha sasuke</button>
+</a>
+
+
+<ul>
+    <li>sasuke</li>
+    <li>naruto</li>
+    <li>sakura</li>
+    <li>kakashi</li>
+</ul>
+
+
+
+
+<h3>Кино - Звезда по имени солнце</h3>
+
+<audio controls>
+<source src="Виктор Цой - Звезда по имени Солнце.mp3" type="audio/mpeg">
+Ваш браузер не поддерживает аудио.
+</audio>
+
+
+<p></p>
+
+<button>Sasuke</button>
+
+<p>
+
+</p>
+
+<table>
+        <caption>мои умения</caption>
+        <thead>
+          <tr>
+            <th scope="col">умения</th>
+            <th scope="col">время</th>
+            <th scope="col">рейт</th>
+            <th scope="col">место</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Танцы</th>
+            <td>4 года</td>
+            <td>7/10</td>
+            <td>Vibe dance</td>
+          </tr>
+          <tr>
+            <th scope="row">Волейбол</th>
+            <td>3 года</td>
+            <td>4/10</td>
+            <td>MVP</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row" colspan="3">Всего умений</th>
+            <td>2</td>
+          </tr>
+        </tfoot>
+      </table>
+
+
+<video controls width="480">
+<source src="11861251-uhd_3840_2160_30fps.mp4" type="video/mp4">
+<track src="media/subtitles.vtt" kind="captions"
+ srclang="ru" label="Русский">
+Ваш браузер не поддерживает видео.
+</video>
+
+
+<form>
+        <fieldset>
+          <legend>Информация о студенте</legend>
+          <p>
+            <label for="student-name">Имя (обязательно):</label><br>
+            <input type="text" id="student-name" name="student_name" placeholder="Алтынай" required minlength="2" maxlength="80">
+          </p>
+          <p>
+            <label for="email">Учебный email:</label><br>
+            <input type="email" id="email" name="email" placeholder="isabekovaaltynaj1@gmail.com">
+          </p>
+          <p>
+            <label for="phone">Телефон:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="996500525267">
+          </p>
+          <p>
+            <label for="birthday">Дата рождения:</label><br>
+            <input type="date" id="birthday" name="birthday">
+          </p>
+          <p>
+            <label for="course">Курс:</label>
+            <input type="number" id="course" name="course" min="1" max="6" value="2">
+          </p>
+          <p>
+            <label for="demo-password">Пример пароля (не используйте настоящий):</label><br>
+            <input type="password" id="demo-password" name="demo_password" minlength="8" autocomplete="new-password">
+          </p>
+        </fieldset>
+         <fieldset>
+          <legend>Учебные интересы</legend>
+          <p>
+            <label for="direction">Направление:</label>
+            <select id="direction" name="direction">
+              <option value="">Выберите направление</option>
+              <optgroup label="Технические примеры">
+                <option value="web">CSC</option>
+                <option value="data">SCA</option>
+              </optgroup>
+              <optgroup label="Экономические примеры">
+                <option value="finance">ACO</option>
+              </optgroup>
+            </select>
+          </p>
+          <p>
+            <label for="language">Язык обучения (можно вписать свой):</label>
+            <input list="languages" id="language" name="language">
+            <datalist id="languages">
+              <option value="Кыргызский"></option>
+              <option value="Русский"></option>
+              <option value="Английский"></option>
+            </datalist>
+          </p>
+          <!-- Одинаковый name объединяет radio в группу с одним выбором. -->
+          <fieldset>
+            <legend>Формат учебного занятия</legend>
+            <label><input type="radio" name="format" value="offline" checked> Оффлайн</label>
+            <label><input type="radio" name="format" value="online"> Онлайн</label>
+          </fieldset>
+          <p>Интересующие темы:</p>
+          <p>
+            <label><input type="checkbox" name="topics" value="html" checked> HTML</label>
+            <label><input type="checkbox" name="topics" value="design"> Финансы</label>
+            <label><input type="checkbox" name="topics" value="analytics"> Аналитика</label>
+          </p>
+          <p>
+            <label for="confidence">Уверенность в HTML (от 0 до 10):</label>
+            <input type="range" id="confidence" name="confidence" min="0" max="10" value="3">
+          </p>
+          <p>
+            <label for="color">Любимый цвет:</label>
+            <input type="color" id="color" name="color" value="#234567">
+          </p>
+          <p>
+            <label for="portfolio">Ссылка на портфолио:</label>
+            <input type="url" id="portfolio" name="portfolio" placeholder="https://example.com">
+          </p>
+          <p>
+            <label for="attachment">Файл задания:</label>
+            <input type="file" id="attachment" name="attachment" accept=".html,.txt">
+          </p>
+          <p>
+            <label for="message">Что хотите изучить?</label><br>
+            <textarea id="message" name="message" rows="4" cols="40" placeholder="Напишите несколько предложений"></textarea>
+          </p>
+        </fieldset>
+        <p>
+          <button type="submit" disabled>Отправка не подключена</button>
+          <button type="reset">Сбросить анкету</button>
+        </p>
+
+
+<footer>
+    <h2>Конец сайта Sasuke</h2>
+</footer>
+
+
+ 
+
+</body>
+</html>
