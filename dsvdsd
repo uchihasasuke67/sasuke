@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+    <h2>Aida's Creative Portfolio</h2>
+</header>
+
+<h5>Student. Curious learner. Future web developer.</h5>
+
+<figure>
+<img src="loll.svg"
+alt="sasuke"
+width="600" height="300">
+</figure>
+
+<h2>01 - About me</h2>
+
+<h4>Hello, i'm Aida, a student at Alatoo college in bishkek.</h4>
+
+<h4>I enjoy building useful pages, taking photos and learning how the web works.</h4>
+<h4>My current goal is to create a complete portfolio with clear and meaninful HTML</h4>
+
+<h4>    Small steps, regular practice, better websites</h4>
+
+
+<h2>02 - Skills & Learning </h2>
+<ul>
+    <li>Semantic page structure: header, main and footer</li>
+    <li>Links, lists and images</li>
+    <li>Audio, video and accessible form labels</li>
+</ul>
+<p>
+    <label for="confidence">My HTML self-assessment::</label>
+    <input type="range" id="confidence" name="confidence" min="0" max="100" value="70">
+</p>
+<p>
+    <label for="confidence">portfolio sections completed:</label>
+    <input type="range" id="confidence" name="confidence" min="0" max="5" value="3">
+</p>
+<h4> Today's written result: 3 sections completed</h4>
+<table>
+        <caption>My weekly learning plan</caption>
+        <thead>
+          <tr>
+            <th scope="col">day</th>
+            <th scope="col">topic</th>
+            <th scope="col">goal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Monday</th>
+            <td>HTML structure</td>
+            <td>organize my page</td>
+          </tr>
+          <tr>
+            <th scope="row">Wednesday</th>
+            <td>media amd forms</td>
+            <td>add a contact form</td>
+          </tr>
+          <tr>
+            <th scope="row">Friday</th>
+            <td>practice</td>
+            <td>check and improve my work</td>
+          </tr>
+        </tbody>
+        </tfoot>
+      </table>
+<h2>03 - My work</h2>
+<h3>My first portfolio</h3>
+<h6> Started on 1 September 2026 · Personal project</h6>
+
+<figure>
+<img src="ppp.svg"
+alt="sasuke"
+width="500" height="200">
+</figure>
+<h3>A simple page that presents my skills and learning journey:</h3>
+<h3>I built this page to introduce myself and keep my work in one place.</h3>
+
+<h2>media practice</h2>
+<h4>A short sample sound:</h4>
+<audio controls>
+<source src="ooo.wav" type="audio/mpeg">
+Ваш браузер не поддерживает аудио.
+</audio>
+
+<h4>a short portfolio preview</h4>
+
+<video controls width="480">
+<source src="aaaa.png" type="video/mp4">
+<track src="media/subtitles.vtt" kind="captions"
+ srclang="ru" label="Русский">
+Ваш браузер не поддерживает видео.
+</video>
+
+
+    
+
+
+    
+</body>
+</html>
